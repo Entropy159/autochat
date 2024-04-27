@@ -1,0 +1,34 @@
+{
+	"schemaVersion": 1,
+	"id": "auto-chat",
+	"version": "${version}",
+	"name": "Auto Chat",
+	"description": "A simple mod to open chat with a preconfigured message.",
+	"authors": [
+		"Entropy159"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/auto-chat/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.entropy.AutoChat"
+		],
+		"client": [
+			"com.entropy.AutoChatClient"
+		]
+	},
+	"depends": {
+		"fabricloader": ">=0.15.10",
+		"minecraft": "~1.20.4",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
